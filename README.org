@@ -1,0 +1,30 @@
+#+TITLE: options
+
+* Overview
+
+  A ~getopts~ implementation in pure fish. Modeled after [[https://github.com/fisherman/getopts][fisherman/getopts]], but
+  with less (zero) ~awk~.
+
+* Installation
+
+  #+BEGIN_SRC fish
+    fisher install colstrom/options.fish
+  #+END_SRC
+
+* Compatibility
+
+  ~options~ is intended to be fully compatible with ~getopts~, though it include
+  additional features (such as reading options from STDIN), where that does not
+  affect compatibility.
+
+  Any scenario where something works with ~getopts~ but not with ~options~
+  should be considered a defect, and reported.
+
+* License
+
+  ~options~ is available under the [[https://tldrlegal.com/license/mit-license][MIT License]]. See ~LICENSE.txt~ for the full
+  text.
+
+* Contributors
+
+  - [[https://colstrom.github.io/][Chris Olstrom]] | [[mailto:chris@olstrom.com][e-mail]] | [[https://twitter.com/ChrisOlstrom][Twitter]]
